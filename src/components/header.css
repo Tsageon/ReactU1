@@ -1,0 +1,107 @@
+.NavBar {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  width: 100%;
+}
+
+.NavBar-logo {
+  width: 100px;
+  margin-right: 20px;
+}
+
+.nav-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  position: absolute;
+  top: 0;
+}
+
+.nav-left {
+  display: flex;
+  align-items: center;
+  flex-grow: 1;
+}
+.nav-list {
+  list-style-type: none;
+  display: flex;
+  gap: 50px;
+  padding: 0;
+  margin: 20px 0;
+}
+
+.nav-list li {
+  border-radius: 0px solid rgb(204, 204, 204);
+  padding: 12px;
+}
+
+.nav-list li:last-child {
+  border-bottom: none;
+}
+
+.content {
+  display: flex;
+  align-items: center;
+  margin: 20px 0;
+}
+
+.Hero-image {
+  width: 380px;
+}
+
+.text-content {
+  margin-right: 20px;
+}
+
+.large-text {
+  font-size: 3rem;
+}
+
+.Clients {
+  display: flex;
+  justify-content: space-around;
+  width: 50%;
+  margin-top: 20px;
+}
+
+.Clients img {
+  width: 90px;
+}
+
+.arrow-icon {
+  width: 12px;
+  margin-left: 5px;
+}
+
+.register-btn {
+  border-radius: 60px;
+  background-color: whitesmoke;
+  white-space: nowrap;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+.learn-more-btn {
+  background-color: black;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  text-decoration: none;
+  border-radius: 20px;
+}
+
+.learn-more-btn:hover {
+  background-color: gray;
+}
+.top-right {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
