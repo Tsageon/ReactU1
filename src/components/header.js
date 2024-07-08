@@ -35,10 +35,10 @@ function Header() {
               Features <img src={showFeaturesList ? arrowup : arrowdown} alt={showFeaturesList ? "Arrow Up" : "Arrow Down"} className="arrow-icon" />
               {showFeaturesList && (
                 <ul className="sub-menu">
-                  <li><img src={todolist} alt="Todo List"/>Todo List</li>
-                  <li><img src={calander} alt="Calendar"/>Calendar</li>
-                  <li><img src={reminder} alt="Reminders"/>Reminders</li>
-                  <li><img src={planning} alt="Planning"/>Planning</li>
+                  <ul><img src={todolist} alt="Todo List"/>Todo List</ul>
+                  <ul><img src={calander} alt="Calendar"/>Calendar</ul>
+                  <ul><img src={reminder} alt="Reminders"/>Reminders</ul>
+                  <ul><img src={planning} alt="Planning"/>Planning</ul>
                 </ul>
               )}
             </li>
@@ -46,9 +46,9 @@ function Header() {
               Company <img src={showCompanyList ? arrowup : arrowdown} alt={showCompanyList ? "Arrow Up" : "Arrow Down"} className="arrow-icon" />
               {showCompanyList && (
                 <ul className="sub-menu">
-                  <li>About Us</li>
-                  <li>Our Team</li>
-                  <li>Our Culture</li>
+                  <ul>About Us</ul>
+                  <ul>Our Team</ul>
+                  <ul>Our Culture</ul>
                 </ul>
               )}
             </li>
@@ -57,7 +57,7 @@ function Header() {
           </ul>
         </div>
         <div className="top-right">
-          <li>Login</li>
+          <ul>Login</ul>
           <button className="register-btn">Register</button>
         </div>
       </div>
