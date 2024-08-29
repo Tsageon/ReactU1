@@ -65,9 +65,10 @@
   display: flex;
   justify-content: flex-start;
   gap: 50px;
-  width: 50%;
-  margin-top: 20px;
-  margin-left: 100px;
+  height:30px;
+  width: 950px;
+  margin-top: 30px;
+  margin-left: 50px;
 }
 
 .Clients img {
@@ -80,36 +81,41 @@
 }
 
 .register-btn {
-  border-radius: 60px;
+  border-radius: 1000px;
+  border: solid black;
   background-color: whitesmoke;
-  white-space: normal;
-  border: none;
   padding: 10px 20px;
   cursor: pointer;
   max-width: 100px;
-  margin-right: 50px;
+  margin-right: 50px  ;
 }
+
+.register-btn:hover{ 
+  color: black;
+  background-color: white;}
 
 .learn-more-btn {
   float: left;
   margin-top: 20px;
   background-color: black;
-  color: white;
-  border: none;
-  padding: 10px 20px;
+  color: whitesmoke;
+  border: solid black;
+  padding:20px 40px;
   font-size: 16px;
   cursor: pointer;
   text-decoration: none;
-  border-radius: 20px;
-}
+  border-radius: 20px;}
 
 .learn-more-btn:hover {
-  background-color: gray;
+  background-color: white;
+  color: black;
 }
+
 .top-right {
   display: flex;
   align-items: center;
   gap: 10px;
+  margin-bottom: 10px;
 }
 
 p{
@@ -118,9 +124,8 @@ p{
 }
 
 h1{
-  text-align: left
-}
+  text-align: left}
 
 .sub-menu{
-padding: auto;
-}
+  position: inherit;
+  padding: auto;}
