@@ -17,4 +17,3 @@ The goal of this challenge is to practice front-end development by recreating an
 2. **Run The App** 
    ```bash
    npm start  
-  

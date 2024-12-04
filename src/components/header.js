@@ -2,10 +2,6 @@ import React, { useState } from 'react';
 import logo from "../images/logo.svg";
 import arrowdown from "../images/icon-arrow-down.svg";
 import arrowup from "../images/icon-arrow-up.svg";
-import calander from "../images/icon-calendar.svg";
-import todolist from "../images/icon-todo.svg";
-import reminder from "../images/icon-reminders.svg";
-import planning from "../images/icon-planning.svg";
 import heroImage from "../images/image-hero-desktop.png";
 import clientDatabiz from "../images/client-databiz.svg";
 import clientAudiophile from "../images/client-audiophile.svg";
@@ -32,25 +28,10 @@ function Header() {
           <img src={logo} className='NavBar-logo' alt='logo'/>
           <ul className="nav-list">
             <li onClick={toggleFeaturesList}>
-              Features <img src={showFeaturesList ? arrowup : arrowdown} alt={showFeaturesList ? "Arrow Up" : "Arrow Down"} className="arrow-icon" />
-              {showFeaturesList && (
-                <ul className="sub-menu">
-                  <ul><img src={todolist} alt="Todo List"/>Todo List</ul>
-                  <ul><img src={calander} alt="Calendar"/>Calendar</ul>
-                  <ul><img src={reminder} alt="Reminders"/>Reminders</ul>
-                  <ul><img src={planning} alt="Planning"/>Planning</ul>
-                </ul>
-              )}
+              Features <img src={ arrowdown} alt={arrowup} className="arrow-icon" />
             </li>
             <li onClick={toggleCompanyList}>
-              Company <img src={showCompanyList ? arrowup : arrowdown} alt={showCompanyList ? "Arrow Up" : "Arrow Down"} className="arrow-icon" />
-              {showCompanyList && (
-                <ul className="sub-menu">
-                  <ul>About Us</ul>
-                  <ul>Our Team</ul>
-                  <ul>Our Culture</ul>
-                </ul>
-              )}
+              Company <img src={arrowdown} alt={"Arrow Down"} className="arrow-icon" />
             </li>
             <li>Careers</li>
             <li>About</li>
